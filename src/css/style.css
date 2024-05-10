@@ -1,0 +1,43 @@
+:root {
+    --color-primary: rgb( 88, 184, 74);
+    --color-primary-hover:  rgb(42, 95, 34);
+    --color-secondary: rgb(0,85,70);
+    --text-navbar-size: 20pt;
+    --gap-navbar-value: 40px;
+    --shadow-color: rgba(100, 100, 111, 0.2);
+}
+
+.nav-item {
+    color: var(--color-secondary);
+    cursor: pointer;
+    font-size: var(--text-navbar-size);
+}
+.nav-item:hover {
+    color: var(--color-primary-hover);
+}
+.navbar {
+    box-shadow: var(--shadow-color) 0px 7px 29px 0px;
+}
+
+.nav_items {
+    list-style: none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-navbar-value);
+    font-size: var(--text-navbar-size);
+}
+
+.btn-bg-color-primary-rounded {
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+    font-size: var(--text-navbar-size);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-bg-color-primary-rounded:hover {
+    background-color: var(--color-primary-hover);
+}
