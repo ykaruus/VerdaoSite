@@ -2,9 +2,14 @@
     --color-primary: rgb( 88, 184, 74);
     --color-primary-hover:  rgb(42, 95, 34);
     --color-secondary: rgb(0,85,70);
-    --text-navbar-size: 20pt;
+    --text-navbar-size: 15pt;
     --gap-navbar-value: 40px;
     --shadow-color: rgba(100, 100, 111, 0.2);
+    --text-whatsapp: rgb(6, 209, 6);
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .nav-item {
@@ -40,4 +45,19 @@
 }
 .btn-bg-color-primary-rounded:hover {
     background-color: var(--color-primary-hover);
+}
+
+
+.bg-1 {
+    width: 100vw;
+    height: 70%;
+}
+
+.text-whatsapp {
+    color: var(--text-whatsapp);
+    cursor: pointer;
+}
+.text-whatsapp:hover {
+    text-decoration: none;
+    color: var(--text-whatsapp);
 }
